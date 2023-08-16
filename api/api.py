@@ -18,7 +18,7 @@ def get_menu_by_id(id: int):
     
     meals = []
     for meal in menu:
-        meals.append(re.sub(r'\\u0[\da-fA-F]{2}', "", meal.get_text(strip=True)))
+        meals.append(meal.get_text(strip=True).replace("\u00a0", "").replace("Š", "S").replace("Č", "C").replace("Ž", "Z"))
         
     
     return jsonify({
