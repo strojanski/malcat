@@ -1,0 +1,20 @@
+{
+    "restaurants": [
+        {
+            "name": "Barbado",
+            "id": 2133
+        },
+        {
+            "name": "Vivo",
+            "id": 2742
+        },
+        {
+            "name": "Okrepčevalnica - pizzerija Maks",
+            "id": 1683
+        },
+        {
+            "name": "Bistro Slovely",
+            "id": 3221
+        }
+    ]
+}
